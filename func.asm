@@ -20,5 +20,6 @@ func:
 	mov edx,2
 	int 80h
 	mov esp,ebp
+	pop ebp
 	ret
 	
